@@ -1,0 +1,15 @@
+A Template Engine enables you to use static Template files in your app. At runtime, the Template engine replaces variables
+in a Template file with actual values, and transforms the template into an HTML file sent to the client
+
+some Popular templates engines that work with express are Pug,Mustache, and Ejs.                               
+
+//! you can include CSS by following steps:
+//?  1. First of all, in index.js file apply this 
+//?     app.use(express.static('public')); 
+//*   2. then, in index.hbs or .ejs file in head tag link your css file like this
+        //*                 <link rel="stylesheet" href="scss/main.css" />
+        //*           In body for .hbs   link footer like this:
+        //*  {{>footer}}
+//?   3. finally, inside your main folder make a public folder and then inside that make a CSS/SCSS folder and inside that
+//?          add your files like main.css, style.css etc.,
+   

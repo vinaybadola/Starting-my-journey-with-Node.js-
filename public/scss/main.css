@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+
+body{
+
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #0a183d;
+    margin-top: auto;
+}
+.footer p{
+
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+/*
+you can include CSS by following steps:
+1. First of all, in index.js file apply this 
+      app.use(express.static('public')); 
+2. Second, inside your main folder make a public folder and then inside that make a CSS/SCSS folder and inside that
+add your files like main.css, style.css etc.,
+*/     
